@@ -19,11 +19,6 @@ module.exports = async (kernel) => {
         ],
       }
     }, {
-      method: "fs.share",
-      params: {
-        venv: "app/env"
-      }
-    }, {
       method: "notify",
       params: {
         html: "Click the 'start' tab to get started!"
