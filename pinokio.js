@@ -46,18 +46,18 @@ module.exports = {
         }
         arr = arr.concat([
           {
-            icon: "fa-solid fa-rotate", text: "Update", href: "update.json"
+            icon: "fa-solid fa-rotate", text: "Update", href: "update.js"
           }, {
-            icon: "fa-solid fa-plug", text: "Reinstall", href: "install.json"
+            icon: "fa-solid fa-plug", text: "Reinstall", href: "install.js"
           }, {
-            icon: "fa-solid fa-circle-xmark", text: "Reset", href: "reset.json", confirm: "Are you sure you wish to reset the app?"
+            icon: "fa-solid fa-circle-xmark", text: "Reset", href: "reset.js", confirm: "Are you sure you wish to reset the app?"
           }
         ])
         return arr
     } else {
       return [
-        { icon: "fa-solid fa-plug", text: "Install", href: "install.json" },
-        { icon: "fa-solid fa-rotate", text: "Update", href: "update.json" }
+        { icon: "fa-solid fa-plug", text: "Install", href: "install.js" },
+        { icon: "fa-solid fa-rotate", text: "Update", href: "update.js" }
       ]
     }
   }
